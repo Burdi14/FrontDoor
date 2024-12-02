@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import base64
 import win32api
 import win32con
@@ -74,4 +73,3 @@ def run():
     with open("screenshot.bmp") as f:
         img = f.read()
     return img
->>>>>>> 0b995bfb48cdce227fff3bbee7d11c91d7e77791
